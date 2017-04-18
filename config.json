@@ -22,5 +22,8 @@
       "outputStyle": "nested",
       "bundleExec": false
     }
+  },
+  "twig": {
+    "path": "./templates/"
   }
 }

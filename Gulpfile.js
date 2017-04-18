@@ -56,9 +56,14 @@ gulp.task('browser-sync', function() {
   browserSync(config.server.development);
 });
 
+gulp.task('template', function () {
+  browserSync.reload();
+});
+
 gulp.task('default', ['scss', 'browser-sync'], function () {
     gulp.watch(config.sass.src + '*.scss', ['scss']);
-  gulp.on('err', function(err){
-    console.log(err);
-  });
+    gulp.watch(config.twig.path + '**/*.twig', ['template']);
+    gulp.on('err', function(err){
+      console.log(err);
+    });
 });
