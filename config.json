@@ -1,0 +1,26 @@
+{
+  "server": {
+    "development": {
+      "proxy":"stefan.dev",
+      "port": 9999,
+      "open": false,
+      "notify": false,
+      "reloadDelay": 500,
+      "files": [
+        "./css/*.css",
+        "./js/*.js"
+      ]
+    }
+  },
+  "sass": {
+    "src": "./sass/",
+    "dest": "./css/",
+    "options": {
+      "precision": 10,
+      "noCache": true,
+      "compass": false,
+      "outputStyle": "nested",
+      "bundleExec": false
+    }
+  }
+}

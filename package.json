@@ -1,0 +1,28 @@
+{
+  "name": "grav-theme-coda",
+  "version": "1.0.0",
+  "description": "Coda theme for GRAV CMS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanS-O/grav-theme-coda.git"
+  },
+  "author": "Stefan Schulte-Ortbeck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanS-O/grav-theme-coda/issues"
+  },
+  "homepage": "https://github.com/StefanS-O/grav-theme-coda#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.5.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-autoprefixer": "^3.1.1"
+  }
+}
