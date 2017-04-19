@@ -61,7 +61,7 @@ gulp.task('template', function () {
 });
 
 gulp.task('default', ['scss', 'browser-sync'], function () {
-    gulp.watch(config.sass.src + '*.scss', ['scss']);
+    gulp.watch(config.sass.src + '**/*.scss', ['scss']);
     gulp.watch(config.twig.path + '**/*.twig', ['template']);
     gulp.on('err', function(err){
       console.log(err);
